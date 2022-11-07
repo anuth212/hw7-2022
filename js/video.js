@@ -88,6 +88,7 @@ function changeVolume(){
 	console.log(slider.value);
 	
 	volumeJS = slider.value;
+	video.volume = volumeJS/100;
 	
 }
 
